@@ -15,6 +15,10 @@
     height: 100%;
 }
 
+.lucide-va-0{
+    vertical-align: 0;
+}
+
 .lucide-va-1{
     vertical-align: -0.125rem;
 }
@@ -31,37 +35,52 @@
     vertical-align: -0.5rem;
 }
 
-.lucide-16{
+.lucide-1{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.lucide-2{
     width: 1rem;
     height: 1rem;
 }
 
-.lucide-24{
+.lucide-3{
     width: 1.5rem;
     height: 1.5rem;
 }
 
-.lucide-32{
+.lucide-4{
     width: 2rem;
     height: 2rem;
 }
 
-.lucide-40{
+.lucide-5{
     width: 2.5rem;
     height: 2.5rem;
 }
 
-.lucide-48{
+.lucide-6{
     width: 3rem;
     height: 3rem;
 }
 
-.lucide-56{
+.lucide-7{
     width: 3.5rem;
     height: 3.5rem;
 }
 
-.lucide-64{
+.lucide-8{
     width: 4rem;
     height: 4rem;
+}
+
+.lucide-9{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.lucide-10{
+    width: 5rem;
+    height: 5rem;
 }
