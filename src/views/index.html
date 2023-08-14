@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% import "../includes/lucide.html" as lu %}
+<html>
+  <head>
+    <link rel="stylesheet" href="/icons/style.css">
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>Lucide Icons</h1>
+    <p>This is a lucide icon {{ lu.i("wand") }}</p>
+    <p>This is also a lucide icon {{ lu.i("battery", [24, 'va-3']) }}</p>
+    <p>This is also a lucide icon {{ lu.i("zap", ['red', "40"]) }}</p>
+
+  </body>
+</html>
