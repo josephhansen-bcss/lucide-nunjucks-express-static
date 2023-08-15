@@ -23,7 +23,7 @@ app.get('/icons/style.css', (req, res) => {
 app.get('/icons/:icon', (req, res) => {
     res.type('image/svg+xml')
     const icon = req.params.icon
-    res.sendFile('src/assets/lucide/icons/'+icon+'.svg', {root: '.'})
+    res.sendFile('src/assets/lucide/used/'+icon+'.svg', {root: '.'})
 })
 
 
