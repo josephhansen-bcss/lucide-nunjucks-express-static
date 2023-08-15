@@ -1,4 +1,1 @@
-{% macro i(icon, size=3, classes=['va-1']) %}
-    <span class="lucide lucide-{{ size }}{% for item in classes %} lucide-{{ item }}{% endfor %} icon-{{ icon }}" style="-webkit-mask-image:url({{ '/icons/'+icon }});mask-image:url({{ '/icons/'+icon }});mask-size: cover;-webkit-mask-size:cover;">
-    </span>
-{% endmacro %}
+{% macro i(icon, size=3, classes=['va-1']) %}<span class="lucide lucide-{{ size }}{% for item in classes %} lucide-{{ item }}{% endfor %} icon-{{ icon }}" style="-webkit-mask-image:url({{ '/icons/'+icon }});mask-image:url({{ '/icons/'+icon }});mask-size: cover;-webkit-mask-size:cover;"></span>{% endmacro %}
