@@ -1,11 +1,13 @@
 {
   "dependencies": {
     "express": "^4.18.2",
-    "liquidjs": "^10.8.4",
     "nodemon": "^3.0.1",
     "nunjucks": "^3.2.4"
   },
-  "name": "liquid-testing",
+  "nodemonConfig": {
+    "ext": "js,html,css,liquid,py,njk"
+  },
+  "name": "nunjucks-testing",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
